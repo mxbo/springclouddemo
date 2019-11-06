@@ -1,0 +1,17 @@
+
+#项目端口
+server:
+  port: 8761
+
+#application名字
+spring:
+  application:
+    name: maxb
+
+#客户端注册
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+
